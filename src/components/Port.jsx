@@ -127,14 +127,13 @@ function Port (){
                             </button>
                         )}
                     />
-                    <span>-> </span>
-                    <a className='underline mx-auto pt-4' 
+                    <span>-&gt; </span>
+                    <a className='underline mx-auto pt-4 text-4xl' 
                         href="http://librodeguardia.com/login/"
                         target='_blank'>
                         http://librodeguardia.com/login/
                     </a>
                 </div>
-                
                 <button onClick={toggleSlider}
                     className=" text-white bg-red-600 rounded-md px-3 pt-2 text-xl">
                     ✕
