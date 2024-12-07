@@ -393,6 +393,15 @@ span{
     color: var(--main-color);
     font-weight: 600;
 }
+/* contenedor de imagenes e imagen de slider2 */
+.aver{
+    /* height: 600px; */
+    margin-top: 60px;
+}
+.image-gallery-image{
+    height: 60vh;
+}
+/*  */
 .contact h2{
     margin-bottom: 3rem;
 }
