@@ -40,7 +40,9 @@ i18n.use(initReactI18next).init({
         mobilenumber: "Mobile Number",
         emailsubject: "Email Subject",
         message: "Your message",
-        sendmessage: "Send Message"
+        sendmessage: "Send Message",
+        by: "by",
+        rights: "All Rights Reserved"
       },
     },
     es: {
@@ -80,7 +82,9 @@ i18n.use(initReactI18next).init({
         mobilenumber: "Numero de telefono",
         emailsubject: "Asunto",
         message: "Tu mensaje",
-        sendmessage: "Enviar mensaje"
+        sendmessage: "Enviar mensaje",
+        by: "por",
+        rights: "Todos los derechos reservados"
       },
     },
   },
