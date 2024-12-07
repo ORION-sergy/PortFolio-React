@@ -7,9 +7,10 @@ function Footer (){
     return(
         <footer className="footer">
             <div className="footer-text flex gap-x-2">
-                <p>Copyright</p> 
-                <span className="copy text-white text-[1.9rem]">&copy; </span> 
-                <p className="w-fit"> 2024 {t('by')} <span>SRG. </span> Developer | {t('rights')}.</p>
+                <p className="w-fit">
+                    Copyright <span className="copy text-white text-[1.9rem]">&copy; </span> 
+                    2024 {t('by')} <span>SRG. </span> Developer | {t('rights')}.
+                </p>
             </div>
             <div className="footer-iconTop">
                 <div className="social-media">

@@ -454,6 +454,7 @@ span{
 }
 .footer-text p{
     font-size: 1.9rem;
+    text-align: center;
 }
 footer-iconTop{
     display: flex;
