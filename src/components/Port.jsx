@@ -106,19 +106,20 @@ function Port (){
                                 onClick={onClick}
                                 disabled={disabled}
                                 style={{
-                                    fontSize: "20px", // Cambia el tamaño de las flechas aquí
+                                    fontSize: "50px",
                                     background: "none",
                                     border: "none",
                                     cursor: "pointer",
-                                    color: "white",
+                                    color: "#00abf0",
                                     position: "absolute",
                                     top: "50%",
                                     left: "10px",
                                     transform: "translateY(-50%)",
                                     zIndex: "1000",
+                                    fontWeight: "900"
                                 }}
                             >
-                                ◀
+                                &lt;
                             </button>
                         )}
                         renderRightNav={(onClick, disabled) => (
@@ -127,19 +128,20 @@ function Port (){
                                 onClick={onClick}
                                 disabled={disabled}
                                 style={{
-                                    fontSize: "20px", // Cambia el tamaño de las flechas aquí
+                                    fontSize: "50px",
                                     background: "none",
                                     border: "none",
                                     cursor: "pointer",
-                                    color: "white",
+                                    color: "#00abf0",
                                     position: "absolute",
                                     top: "50%",
                                     right: "10px",
                                     transform: "translateY(-50%)",
                                     zIndex: "1000",
+                                    fontWeight: "900"
                                 }}
                             >
-                                ▶
+                                &gt;
                             </button>
                         )}
                     />
@@ -171,16 +173,17 @@ function Port (){
                                 onClick={onClick}
                                 disabled={disabled}
                                 style={{
-                                    fontSize: "50px", // Cambia el tamaño de las flechas aquí
+                                    fontSize: "50px",
                                     background: "none",
                                     border: "none",
                                     cursor: "pointer",
-                                    color: "white",
+                                    color: "#00abf0",
                                     position: "absolute",
                                     top: "50%",
                                     left: "10px",
                                     transform: "translateY(-50%)",
                                     zIndex: "1000",
+                                    fontWeight: "900"
                                 }}
                             >
                                 &lt;
@@ -192,18 +195,17 @@ function Port (){
                                 onClick={onClick}
                                 disabled={disabled}
                                 style={{
-                                    fontSize: "50px", // Cambia el tamaño de las flechas aquí
+                                    fontSize: "50px",
                                     background: "none",
                                     border: "none",
                                     cursor: "pointer",
-                                    color: "white",
+                                    color: "#00abf0",
                                     position: "absolute",
                                     top: "50%",
                                     right: "10px",
                                     transform: "translateY(-50%)",
                                     zIndex: "1000",
-                                    fontWeight: "900",
-                                    textShadow: "40px"
+                                    fontWeight: "900"
                                 }}
                             >
                                 &gt;
