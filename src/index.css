@@ -401,6 +401,11 @@ span{
 .image-gallery-image{
     height: 60vh;
 }
+@media (max-width: 440px){
+    .aver{
+        margin-top: 10px;
+    }
+}
 /*  */
 .contact h2{
     margin-bottom: 3rem;

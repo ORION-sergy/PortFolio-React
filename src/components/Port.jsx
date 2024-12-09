@@ -106,6 +106,7 @@ function Port() {
       >
         <div className="mt-14 lg:w-[60vw] md:w-[90vw] w-[95vw] h-auto text-[#00abf0] text-2xl text-center">
           <ImageGallery
+          additionalClass="aver"
             items={images}
             autoPlay={false}
             showPlayButton={false}
